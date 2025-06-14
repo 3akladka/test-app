@@ -1,0 +1,57 @@
+.skeleton {
+  border: 1px solid #f3f3f3;
+  border-radius: 40px;
+  width: 210px;
+  height: 260px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 36px 30px 37px 30px;
+}
+
+.img-back {
+  width: 150px;
+  height: 91px;
+  background-color: #f2f2f2;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.name-back-first {
+  width: 150px;
+  height: 15px;
+  background-color: #f2f2f2;
+  margin-bottom: 4px;
+  border-radius: 3px;
+}
+
+.name-back-second {
+  width: 93px;
+  height: 15px;
+  background-color: #f2f2f2;
+  border-radius: 3px;
+}
+
+.price-back {
+  width: 80px;
+  height: 24px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+.btn-back {
+  width: 32px;
+  height: 32px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.img-container {
+  margin-bottom: 14px;
+}

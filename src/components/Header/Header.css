@@ -1,0 +1,70 @@
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 43px;
+  padding-bottom: 44px;
+  padding-left: 45px;
+  padding-right: 60px;
+  border-bottom: 1px solid #eaeaea;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+}
+
+.header-right a {
+  text-decoration: none;
+}
+.header-right a:link {
+  text-decoration: none;
+  color: #5c5c5c;
+}
+.header-right a:visited {
+  text-decoration: none;
+  color: #5c5c5c;
+}
+
+.right-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  /* justify-items: center; */
+  text-align: center;
+}
+
+.right-item > img {
+  margin-right: 10px;
+  margin-left: 32px;
+}
+
+.logo-text > h3 {
+  margin: 0 0 0 16px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.logo-text > p {
+  margin: 0 0 0 16px;
+  color: #9d9d9d;
+  font-size: 14px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000; /* Ниже чем корзина */
+}

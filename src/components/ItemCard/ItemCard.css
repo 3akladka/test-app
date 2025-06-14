@@ -1,0 +1,87 @@
+.card {
+  border: 1px solid #f3f3f3;
+  border-radius: 40px;
+  width: 210px;
+  height: 260px;
+  box-sizing: border-box;
+}
+
+.card-foto {
+  position: relative;
+  margin-bottom: 14px;
+  margin-left: 33px;
+  margin-top: 20px;
+}
+
+.like-in-active {
+  position: absolute;
+  left: 3px;
+  top: 9px;
+  background-image: url("./../../img/likeInActive.svg");
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.like-active {
+  position: absolute;
+  left: 3px;
+  top: 9px;
+  background-image: url("./../../img/like.svg");
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.card-foto p {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-weight: 400;
+  width: 150px;
+  height: 34px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.card h5 {
+  margin: 0;
+}
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 29px;
+}
+
+.card-price p {
+  color: #bdbdbd;
+  margin: 0;
+  font-size: 11px;
+}
+
+.btn-non-added {
+  width: 32px;
+  height: 32px;
+  background-image: url("./../../img/btn_plus.svg");
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-is-added {
+  width: 32px;
+  height: 32px;
+  background-image: url("./../../img/check-mark.png"),
+    linear-gradient(#89f09c, #3cc755);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}

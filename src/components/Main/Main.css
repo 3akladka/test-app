@@ -1,0 +1,14 @@
+.main-content {
+  margin: 39px 60px 73px 60px;
+}
+
+.main-content h1 {
+  margin-bottom: 40px;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 39px;
+}

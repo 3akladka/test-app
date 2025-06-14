@@ -1,0 +1,19 @@
+.wrapper {
+  /* padding: 85px 85px 0 85px; */
+  background-color: #e7f6ff;
+  width: 1250px;
+  /* width: 100vw; */
+  height: 1560px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.content {
+  margin: 85px 85px 0 85px;
+  width: 1080px;
+  height: 1526px;
+  background-color: #ffff;
+  border-radius: 30px;
+  border: 1px solid #eaeaea;
+}

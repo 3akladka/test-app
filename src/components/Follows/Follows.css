@@ -1,0 +1,49 @@
+.btn-back {
+  width: 32px;
+  height: 32px;
+  background-image: url("./../../img/btn-back.svg");
+  border-radius: 8px;
+  border: 1px solid #f2f2f2;
+  background-color: white;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.follows-top {
+  margin-bottom: 40px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.follows-top h1 {
+  margin-left: 21px;
+}
+
+.follows-content {
+  margin: 39px 60px 73px 60px;
+}
+
+.follows-content-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 977px; /* Добавьте эту строку */
+  width: 1080px;
+}
+
+.follows-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.follows-empty h2 {
+  margin-bottom: 11px;
+}
+
+.follows-empty div {
+  margin-bottom: 70px;
+}
